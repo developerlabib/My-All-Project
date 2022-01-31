@@ -1,0 +1,123 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: white;
+  display: grid;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 98%;
+  margin: 0% auto;
+  box-sizing: border-box;
+  padding-top: 60px;
+}
+.nav1 p {
+  color: #f86474;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+}
+header {
+  position: fixed;
+  background-image: linear-gradient(
+    to right,
+    rgb(252, 235, 0),
+    rgb(203, 255, 107)
+  );
+  height: 50px;
+  width: 100%;
+}
+
+#art-section {
+  width: 50%;
+  height: 700px;
+  float: left;
+  background: #f86474;
+  box-sizing: border-box;
+}
+.profile-pic {
+  height: 120px;
+  width: 120px;
+  border: white solid 3px;
+  border-radius: 50%;
+}
+.profile {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.profile p {
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+}
+#art-aside {
+  width: 50%;
+  height: 700px;
+  float: left;
+  background: #40d0c9;
+  box-sizing: border-box;
+  text-align: center;
+}
+#art-aside h1 {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+}
+.btn:hover {
+  background-color: rgb(167, 83, 247);
+}
+.icon-btn {
+  background-color: rgb(206, 93, 181);
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+.icon-btn button {
+  border: none;
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+}
+.icon-btn a {
+  padding: 6px;
+}
+
+.icon-btn .fb {
+  color: #006eff;
+  background-color: ;
+}
+.icon-btn .ld {
+  color: #006eff;
+  background-color: ;
+}
+.icon-btn .gh {
+  color: black;
+  background-color: ;
+}
+
+.icon-btn .fb:hover {
+  color: #3c8bf1;
+}
+
+.icon-btn .ld:hover {
+  color: #3c8bf1;
+}
+.icon-btn .gh:hover {
+  color: rgb(61, 59, 59);
+}
